@@ -1,0 +1,18 @@
+From: drive-shares-dm-noreply@google.com
+To: employee@target-company.com
+Subject: SF shared "Updated Org Chart" with you
+Date: Mon, 17 Nov 2025 14:30:00 +0530
+MIME-Version: 1.0
+Content-Type: text/html
+
+<html>
+<body>
+<div style="font-family: Arial, sans-serif;">
+  <p>SF shared an item with you</p>
+  <p><strong>(Target-Company) HR shared an item</strong></p>
+  <p>(Due to unforeseen circumstances, changes have been made to the current management structure. Download the new org chart to understand how these changes impact you.)</p>
+  <p><a href="https://drive.google.com/file/d/fake-phish-id/view?usp=sharing">Updated Company Org Chart - (Target-Company).pdf</a></p>
+  <p><button style="background: #4285f4; color: white; padding: 10px;">Open</button></p>
+  <p>Details: Shared by SF from CanIphish-... on Wed, 01/03/2024 4:34 PM</p>
+</body>
+</html>

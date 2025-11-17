@@ -1,0 +1,12 @@
+Received: from unknown [185.220.101.XX] (port=12345 helo=phish-server.com)
+	by mx.target-company.com with ESMTPS id 1hABC-000DEF-ghi
+	for <employee@target-company.com>; Mon, 17 Nov 2025 14:30:05 +0530
+Received: from localhost (phish-server.com [192.168.1.100])
+	by phish-server.com (Postfix) with ESMTP id 456DEF
+	for <employee@target-company.com>; Mon, 17 Nov 2025 09:00:00 +0000
+From: "Google Drive" <drive-shares-dm-noreply@google.com>
+Reply-To: noreply@google.com
+Message-ID: <789GHI@phish-server.com>
+Subject: SF shared "Updated Org Chart" with you
+X-Priority: 3 (Normal)
+Authentication-Results: mx.target-company.com; spf=fail (sender IP not authorized); dkim=fail (no signature); dmarc=fail

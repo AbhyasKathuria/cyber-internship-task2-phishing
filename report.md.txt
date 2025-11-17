@@ -1,0 +1,18 @@
+# Phishing Email Analysis Report – Task 2
+
+**Sample**: Google Drive "Updated Org Chart" File Share Scam  
+**Date**: 17 November 2025
+
+| # | Phishing Indicator                  | Evidence Found                                                                                  | Why It's Suspicious |
+|----|-------------------------------------|--------------------------------------------------------------------------------------------------|----------------------|
+| 1  | Spoofed/Legitimate sender conflict  | From: drive-shares-dm-noreply@google.com (real Google address)                                 | Real domain used to bypass filters, but content is fake HR share |
+| 2  | Suspicious Received path            | Originated from 185.220.101.XX → phish-server.com → private IP 192.168.1.100                   | Not Google's real mail servers; clear spoofing path |
+| 3  | Suspicious link / payload           | "Open" button → fake Google Drive link that leads to credential theft or malware               | Masquerades as legitimate file share |
+| 4  | Urgency & personal impact           | "changes have been made… understand how these changes impact you"                               | Creates fear of job/organizational impact – classic social engineering |
+| 5  | Header analysis result             | Analyzer showed "No source IP found" + mismatched Received chain (see screenshot)               | Tool flagged incomplete/forged headers |
+| 6  | No grammar/spelling errors          | Perfect English, company-specific wording                                                        | Professional template = advanced phishing |
+
+**Conclusion**:  
+This is a highly dangerous spear-phishing attack that abuses Google’s legitimate no-reply address and everyday Workspace file-sharing behavior. Success rate is extremely high (54% per CanIphish). Never click "Open" – always verify via the real Google Drive app.
+
+**Tool used**: Free online Email Header Analyzer (screenshot attached)
